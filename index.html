@@ -53,6 +53,10 @@
         <section id="hero" class="hero-section">
             <div class="container hero-content">
                 <div class="hero-text animate-up">
+                    <div class="game-container">
+                        <canvas id="hero-game" width="300" height="100"></canvas>
+                        <p class="game-instructions">Press Space or Click to jump!</p>
+                    </div>
                     <h2 class="badge">Available for Projects</h2>
                     <h1>Building <span class="gradient-text">Seamless</span> Mobile Experiences</h1>
                     <p>High-performance cross-platform applications with Flutter & Dart. Transforming complex ideas into
@@ -85,12 +89,12 @@
         <!-- Skills Section -->
         <section id="skills" class="skills-section">
             <div class="container">
-                <div class="section-header">
+                <div class="section-header hidden-scroll">
                     <h2 class="badge">My Expertise</h2>
                     <h1>Technical <span class="gradient-text">Proficiency</span></h1>
                 </div>
                 <div class="skills-grid">
-                    <div class="skill-card glass">
+                    <div class="skill-card glass hidden-scroll">
                         <div class="skill-icon">📱</div>
                         <h3>Flutter Development</h3>
                         <p>Expert in building high-performance, cross-platform apps using Flutter & Dart.</p>
@@ -98,7 +102,7 @@
                             <div class="progress" style="width: 95%;"></div>
                         </div>
                     </div>
-                    <div class="skill-card glass">
+                    <div class="skill-card glass hidden-scroll" style="transition-delay: 100ms;">
                         <div class="skill-icon">🔥</div>
                         <h3>Backend & Cloud</h3>
                         <p>Experienced with Firebase, Supabase, and REST APIs for robust data management.</p>
@@ -106,7 +110,7 @@
                             <div class="progress" style="width: 85%;"></div>
                         </div>
                     </div>
-                    <div class="skill-card glass">
+                    <div class="skill-card glass hidden-scroll" style="transition-delay: 200ms;">
                         <div class="skill-icon">🎨</div>
                         <h3>UI/UX Design</h3>
                         <p>Focusing on clean, intuitive designs and smooth user transitions.</p>
@@ -114,7 +118,7 @@
                             <div class="progress" style="width: 80%;"></div>
                         </div>
                     </div>
-                    <div class="skill-card glass">
+                    <div class="skill-card glass hidden-scroll" style="transition-delay: 300ms;">
                         <div class="skill-icon">⚙️</div>
                         <h3>State Management</h3>
                         <p>Proficient in Bloc, Provider, and GetX for scalable application architecture.</p>
@@ -129,13 +133,13 @@
         <!-- Projects Section -->
         <section id="projects" class="projects-section">
             <div class="container">
-                <div class="section-header">
+                <div class="section-header hidden-scroll">
                     <h2 class="badge">Recent Work</h2>
                     <h1>Featured <span class="gradient-text">Projects</span></h1>
                 </div>
                 <div class="projects-grid">
                     <!-- Project 1 -->
-                    <div class="project-card">
+                    <div class="project-card hidden-scroll">
                         <div class="project-image">
                             <!-- Image will be here -->
                             <div class="project-overlay">
@@ -149,7 +153,7 @@
                         </div>
                     </div>
                     <!-- Project 2 -->
-                    <div class="project-card">
+                    <div class="project-card hidden-scroll" style="transition-delay: 150ms;">
                         <div class="project-image">
                             <div class="project-overlay">
                                 <a href="#" class="btn btn-primary">View App</a>
@@ -168,7 +172,7 @@
         <!-- Contact Section -->
         <section id="contact" class="contact-section">
             <div class="container">
-                <div class="glass contact-card">
+                <div class="glass contact-card hidden-scroll">
                     <div class="contact-header">
                         <h1>Let's Create Something <span class="gradient-text">Amazing</span></h1>
                         <p>Ready to start your next project or just want to say hi?</p>
